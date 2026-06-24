@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @author     Matijs de Jong <mjong@magnafacta.nl>
  */
 
-namespace test;
+namespace EmcModule\Test;
 
 use PHPUnit\Framework\TestCase;
 
