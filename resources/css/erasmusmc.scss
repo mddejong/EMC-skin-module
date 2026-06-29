@@ -1,14 +1,32 @@
+:root {
+  --bs-primary: #00216d;
+  --bs-secondary: #0b2f81;
+  --gems-footer-background: #81cee6;
+}
 
-header {
-  .logo {
-    background: url(../images/erasmuswmc-logo.svg) 8px 2px no-repeat;
-    height: 109px;
-    width: 254px;
-  }
+  header {
+    .application-title h1 {
+      border-bottom: 12px solid #00216d;
+      &.ACC {
+        border-bottom-color: red;
+      }
+      &.DEV {
+        border-bottom-color: yellow;
+      }
+      &.TES {
+        border-bottom-color: orange;
+      }
+    }
 
-  .logo-small {
-    background: url(../images/erasmuswmc-logo.svg) 8px 2px no-repeat;
-    height: 27px;
-    width: 64px;
-  }
+    .logo {
+      background: url(../images/erasmuswmc-logo.svg) 8px 2px no-repeat;
+      height: 109px;
+      width: 254px;
+    }
+
+    .logo-small {
+      background: url(../images/erasmuswmc-logo.svg) 8px 2px no-repeat;
+      height: 27px;
+      width: 64px;
+    }
 }
